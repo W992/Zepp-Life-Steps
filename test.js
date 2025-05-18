@@ -429,7 +429,7 @@
                   "timestamp": _0x57e9cb,
                   "broadAccount": "",
                   "broadToken": "",
-                  "clientType": "#10.4.1#channel50#iPhone 14 Pro Max#",
+                  "clientType": "#9.6.1#channel50#iPhone 14 Pro Max#",
                   "shopId": "20002",
                   "source": "110003",
                   "sourcePassword": "Sid98s",
@@ -446,7 +446,7 @@
                     "phoneNum": this.encode_phone(),
                     "isChinatelecom": "0",
                     "systemVersion": "15.4.0",
-                    "authentication": Array.from(this.passwd).map(char => String.fromCharCode(char.charCodeAt(0) + 2)).join('')
+                    "authentication": this.passwd
                   }
                 }
               }
